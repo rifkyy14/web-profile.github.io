@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: brown;
+}
+header ul { 
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    color: brown;
+}
+.active {
+   color: brown;
+}
+.wrapper {
+    width: 60%;
+    padding: 25px 0;
+    float: right;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.kolom {
+    float: left;
+    padding: 50px 70px;
+    margin: 10px;
+}
+.kolom ul li {
+    color: brown;
+    margin: 20px;
+    display: block;
+    font-size: 25;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 a {
+    font-size: 50px;
+    color: brown;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.gmbr {
+    width:50%;
+    float: right;
+}
+.pribadi ul li {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 25;
+    margin: 20px;
+}
+.pribadi h2 a {
+    font-size: 50px;
+    color: brown;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.pribadi {
+    float: left;
+    padding: 50px 70px;
+    margin: 10px;
+}
+.deskripsi {
+    margin: 25px;
+    color: brown;
+    font-family: sans-serif;
+    padding: 50px 70px ;
+    
+}
+h4{
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.deskripsi p {
+    padding: 20px;
+    font-size: 110%;
+}
+p {
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
